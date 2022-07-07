@@ -18,7 +18,7 @@ const Title = styled.h2`
 	font-weight: ${(props) => props.theme.fontWeight.black};
 	font-size: ${(props) => props.theme.fontSize.md};
 	margin-top: 5px;
-	max-width: 525px;
+	max-width: 600px;
 `;
 
 const Description = styled.div`

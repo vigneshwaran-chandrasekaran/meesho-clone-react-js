@@ -42,6 +42,51 @@ const data = [
 			},
 		],
 	},
+	{
+		id: 2222,
+		title: 'Become a Reseller: Start Making Money In Three Simple Steps',
+		descriptions: [
+			{
+				id: 1,
+				content: `Now that you've been introduced to Meesho's product categories,
+                it's time to learn about our other offerings. Besides shopping for yourself on the platform,
+                you can also become an entrepreneur and earn cash for what you do best.
+                Here’s how you can begin your entrepreneurial journey.`,
+			},
+			{
+				id: 2,
+				content: `Browse: Use your phone to register a new account,
+                or log in to an existing one at the Meesho app or website.
+                You can read through our catalog and select products that you want at wholesale rates!`,
+			},
+			{
+				id: 3,
+				content: `Share: You can simply send catalogs and product images
+                over Whatsapp, Facebook, or Instagram to your contacts in a single click using the share option. `,
+			},
+			{
+				id: 4,
+				content: `Earn: Once you have shared the catalogs with your prospective customers,
+                you'll soon start getting order requests and inquiries. You can quote product prices with an
+                added margin, which will include a profit for you. Once an order has been placed and paid for,
+                you can place the orders yourself using our established processes that ensure 
+                they get delivered to your waiting customers on time.`,
+			},
+			{
+				id: 5,
+				content: `Start Your Online Shopping Journey with Meesho Today`,
+			},
+			{
+				id: 6,
+				content: `You can rest assured that we only deliver the best products to you.
+                You have multiple payment options including debit and credit cards, UPI, and Cash on Delivery.
+                If you're not happy with the quality of your product, send it back and get a
+                full refund without any hassle. Want to learn more? Feel free to send us an
+                email at query@meesho.com.
+                You can also reach out to us on Facebook, Instagram, or Twitter. We're here to help you!`,
+			},
+		],
+	},
 ];
 
 export default function About() {
