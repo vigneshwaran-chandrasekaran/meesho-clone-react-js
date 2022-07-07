@@ -8,7 +8,6 @@ const Container = styled.div`
 	padding-top: 80px;
 	max-width: 1328px;
 	margin: 0 auto;
-	background-color: pink;
 `;
 
 export default function Router() {
