@@ -8,6 +8,7 @@ export const theme = {
 		jet: '#333333',
 		GraniteGray: '#666666',
 		Gainsboro: '#dfdfdf',
+		Cultured: '#f0f0f0',
 	},
 	fontSize: {
 		xl: '2.4rem',

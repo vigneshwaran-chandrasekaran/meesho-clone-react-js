@@ -1,17 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-// import { Flex } from 'components/atoms';
-import { About } from 'components/routes/home';
+import { About, Products } from 'components/routes/home';
 
 const Container = styled.div`
 	display: flex;
-	align-items: flex-start;
-	justify-content: center;
+	flex-direction: column;
 `;
 
 export default function Home() {
 	return (
 		<Container>
+			<Products />
 			<About />
 		</Container>
 	);
