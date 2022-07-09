@@ -9,6 +9,7 @@ export const theme = {
 		GraniteGray: '#666666',
 		Gainsboro: '#dfdfdf',
 		Cultured: '#f0f0f0',
+		SpanishGray: '#999999',
 	},
 	fontSize: {
 		xl: '2.4rem',

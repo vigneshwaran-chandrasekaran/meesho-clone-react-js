@@ -37,6 +37,12 @@ const Right = styled.div`
 const Card = styled(Link)`
 	background-color: ${(props) => props.theme.colors.white};
 	border: 1px solid ${(props) => props.theme.colors.Cultured};
+	text-decoration: none;
 `;
 
-export { Title, Container, Parent, Left, Right, Card };
+const ProductName = styled.div`
+	color: ${(props) => props.theme.colors.SpanishGray};
+	font-family: 'Mier A Book';
+`;
+
+export { Title, Container, Parent, Left, Right, Card, ProductName };
