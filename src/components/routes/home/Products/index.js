@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'components/atoms';
+import { Image, Flex } from 'components/atoms';
 import * as Styles from './styles';
 import tShirt from 'assets/images/boy-white-black-t-shirt.jpg';
 
@@ -35,6 +35,10 @@ export default function Products() {
 								<Styles.FirstOrder>
 									{product.firstOrderOffer} discount on 1st order
 								</Styles.FirstOrder>
+								<Flex alignItems="center">
+									<Styles.Rating>{product.rating}</Styles.Rating>
+									<Styles.Reviews>{product.totalReviews} Reviews</Styles.Reviews>
+								</Flex>
 							</Styles.Box>
 						</Styles.Card>
 					))}

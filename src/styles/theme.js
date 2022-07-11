@@ -11,6 +11,7 @@ export const theme = {
 		Cultured: '#f0f0f0',
 		SpanishGray: '#999999',
 		SeaGreen: '#038d63',
+		MediumSeaGreen: '#23bb75',
 	},
 	fontSize: {
 		xl: '2.4rem',

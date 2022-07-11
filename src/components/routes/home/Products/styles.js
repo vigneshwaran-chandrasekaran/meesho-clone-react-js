@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import percentageIcon from 'assets/svg/percentage.svg';
+import ratingStar from 'assets/svg/rating-star.svg';
 
 const Title = styled.h4`
 	color: ${(props) => props.theme.colors.Jet};
@@ -82,4 +83,53 @@ const FirstOrder = styled.div`
 	}
 `;
 
-export { Title, Container, Parent, Left, Right, Card, Box, ProductName, ProductOffer, FirstOrder };
+const Rating = styled.span`
+	background-color: ${(props) => props.theme.colors.MediumSeaGreen};
+	color: ${(props) => props.theme.colors.white};
+	padding: 5px 22px 3px 8px;
+	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Mier A Demi';
+	position: relative;
+	border-radius: 1rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+	&:after {
+		position: absolute;
+		top: 9px;
+		right: 6px;
+		display: inline-block;
+		content: ' ';
+		width: 10px;
+		height: 10px;
+		background-image: url(${ratingStar});
+		background-size: contain;
+	}
+`;
+
+const Reviews = styled.div`
+	color: ${(props) => props.theme.colors.SpanishGray};
+	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-size: 12px;
+	line-height: 16px;
+	font-family: 'Mier A Demi';
+	padding-left: 5px;
+`;
+
+export {
+	Title,
+	Container,
+	Parent,
+	Left,
+	Right,
+	Card,
+	Box,
+	ProductName,
+	ProductOffer,
+	FirstOrder,
+	Rating,
+	Reviews,
+};
