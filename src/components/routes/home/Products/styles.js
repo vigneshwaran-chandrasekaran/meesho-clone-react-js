@@ -34,6 +34,7 @@ const Left = styled.div`
 
 const Right = styled.div`
 	width: 75%;
+	display: flex;
 `;
 
 const Card = styled(Link)`
@@ -41,6 +42,7 @@ const Card = styled(Link)`
 	border: 1px solid ${(props) => props.theme.colors.Cultured};
 	text-decoration: none;
 	max-width: 25%;
+	margin: 0px 20px 20px 0px;
 `;
 
 const Box = styled.div`
@@ -51,6 +53,9 @@ const ProductName = styled.div`
 	color: ${(props) => props.theme.colors.SpanishGray};
 	font-family: 'Mier A Book';
 	padding-bottom: 1rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
 `;
 
 const ProductOffer = styled.div`
@@ -87,7 +92,7 @@ const FirstOrder = styled.div`
 	font-family: 'Mier A Demi';
 	position: relative;
 	padding-left: 20px;
-	margin: 1rem 0;
+	margin: 0.75rem 0;
 
 	&:before {
 		position: absolute;
@@ -138,6 +143,19 @@ const Reviews = styled.div`
 	padding-left: 5px;
 `;
 
+const IsFreeDelivery = styled.span`
+	display: inline-block;
+	color: ${(props) => props.theme.colors.GraniteGray};
+	background-color: ${(props) => props.theme.colors.Cultured2};
+	padding: 4px 8px;
+	margin: 0 0 0.75rem 0;
+	border-radius: 48px;
+	font-weight: ${(props) => props.theme.fontWeight.semiBold};
+	font-size: 12px;
+	line-height: 16px;
+	font-family: 'Mier A Demi';
+`;
+
 export {
 	Title,
 	Container,
@@ -153,4 +171,5 @@ export {
 	FirstOrder,
 	Rating,
 	Reviews,
+	IsFreeDelivery,
 };

@@ -3,6 +3,7 @@ import { Image, Flex } from 'components/atoms';
 import { Rupee } from 'components/common';
 import * as Styles from './styles';
 import tShirt from 'assets/images/boy-white-black-t-shirt.jpg';
+import baby from 'assets/images/baby.jpg';
 
 const products = [
 	{
@@ -17,6 +18,21 @@ const products = [
 		isFreeDelivery: true,
 		totalReviews: 1234,
 		rating: 3.6,
+	},
+	{
+		id: 2,
+		image: baby,
+		path: '/',
+		title: "Ethnic Fancy Silk Cotton Blend Kurta Kid's Boys Pyjama Set Vol 2",
+		offerPrice: 192,
+		originalPrice: 225,
+		offer: 15,
+		firstOrderOffer: 33,
+		isFreeDelivery: false,
+		totalReviews: 17089,
+		rating: 4.1,
+		offerDeliveryPrice: 63,
+		actualDeliveryPrice: 70,
 	},
 ];
 
@@ -44,6 +60,18 @@ export default function Products() {
 								<Styles.FirstOrder>
 									<Rupee>{product.firstOrderOffer}</Rupee> discount on 1st order
 								</Styles.FirstOrder>
+								<Styles.IsFreeDelivery>
+									{product?.isFreeDelivery ? (
+										'Free Delivery'
+									) : (
+										<>
+											Delivery <Rupee>{product?.offerDeliveryPrice}</Rupee>
+											<Rupee space="0.5rem" strike>
+												{product?.actualDeliveryPrice}
+											</Rupee>
+										</>
+									)}
+								</Styles.IsFreeDelivery>
 								<Flex alignItems="center">
 									<Styles.Rating>{product.rating}</Styles.Rating>
 									<Styles.Reviews>{product.totalReviews} Reviews</Styles.Reviews>

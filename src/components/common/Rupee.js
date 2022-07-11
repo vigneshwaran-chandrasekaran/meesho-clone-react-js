@@ -1,5 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled, { css } from 'styled-components';
+
+const Amount = styled.span`
+	${({ space }) =>
+		space &&
+		css`
+			padding-left: 10px;
+		`}
+	${({ strike }) =>
+		strike &&
+		css`
+			text-decoration: line-through;
+		`}
+`;
 
 export function getCurrency(data = 0) {
 	if (Number.isNaN(Number(data))) {
@@ -12,8 +26,12 @@ export function getCurrency(data = 0) {
 	}).format(data);
 }
 
-export default function Rupee({ children, style = {} }) {
-	return <span style={style}>{getCurrency(children)}</span>;
+export default function Rupee({ children, style = {}, ...props }) {
+	return (
+		<Amount style={style} {...props}>
+			{getCurrency(children)}
+		</Amount>
+	);
 }
 
 Rupee.propTypes = {
