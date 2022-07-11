@@ -10,6 +10,7 @@ export const theme = {
 		Gainsboro: '#dfdfdf',
 		Cultured: '#f0f0f0',
 		SpanishGray: '#999999',
+		SeaGreen: '#038d63',
 	},
 	fontSize: {
 		xl: '2.4rem',

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import percentageIcon from 'assets/svg/percentage.svg';
 
 const Title = styled.h4`
 	color: ${(props) => props.theme.colors.Jet};
@@ -38,6 +39,11 @@ const Card = styled(Link)`
 	background-color: ${(props) => props.theme.colors.white};
 	border: 1px solid ${(props) => props.theme.colors.Cultured};
 	text-decoration: none;
+	max-width: 25%;
+`;
+
+const Box = styled.div`
+	padding: 12px;
 `;
 
 const ProductName = styled.div`
@@ -45,4 +51,35 @@ const ProductName = styled.div`
 	font-family: 'Mier A Book';
 `;
 
-export { Title, Container, Parent, Left, Right, Card, ProductName };
+const ProductOffer = styled.div`
+	color: ${(props) => props.theme.colors.SeaGreen};
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Mier A Demi';
+`;
+
+const FirstOrder = styled.div`
+	color: ${(props) => props.theme.colors.GraniteGray};
+	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-size: 12px;
+	line-height: 16px;
+	font-family: 'Mier A Demi';
+	position: relative;
+	padding-left: 20px;
+
+	&:before {
+		position: absolute;
+		left: 0;
+		display: inline-block;
+		content: ' ';
+		width: 14px;
+		height: 14px;
+		background-image: url(${percentageIcon});
+		background-size: contain;
+	}
+`;
+
+export { Title, Container, Parent, Left, Right, Card, Box, ProductName, ProductOffer, FirstOrder };

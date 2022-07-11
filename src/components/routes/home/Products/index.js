@@ -29,7 +29,13 @@ export default function Products() {
 					{products.map((product) => (
 						<Styles.Card key={product.id} to={product.path}>
 							<Image width={227} height={232} src={product.image} />
-							<Styles.ProductName>{product.title}</Styles.ProductName>
+							<Styles.Box>
+								<Styles.ProductName>{product.title}</Styles.ProductName>
+								<Styles.ProductOffer>{product.offer} % Off</Styles.ProductOffer>
+								<Styles.FirstOrder>
+									{product.firstOrderOffer} discount on 1st order
+								</Styles.FirstOrder>
+							</Styles.Box>
 						</Styles.Card>
 					))}
 				</Styles.Right>
