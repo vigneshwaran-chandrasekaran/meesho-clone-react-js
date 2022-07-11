@@ -50,34 +50,53 @@ const Box = styled.div`
 const ProductName = styled.div`
 	color: ${(props) => props.theme.colors.SpanishGray};
 	font-family: 'Mier A Book';
+	padding-bottom: 1rem;
 `;
 
 const ProductOffer = styled.div`
 	color: ${(props) => props.theme.colors.SeaGreen};
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-weight: ${(props) => props.theme.fontWeight.semiBold};
 	font-size: 16px;
 	line-height: 20px;
 	font-family: 'Mier A Demi';
 `;
 
+const Price = styled.h5`
+	color: ${(props) => props.theme.colors.jet};
+	font-weight: ${(props) => props.theme.fontWeight.bold};
+	font-size: 24px;
+	line-height: 32px;
+	font-family: 'Mier B';
+`;
+
+const OldPrice = styled.h5`
+	color: ${(props) => props.theme.colors.SpanishGray};
+	line-height: 20px;
+	font-family: 'Mier B Book';
+	text-decoration: line-through;
+	margin: 0 0.5rem;
+`;
+
 const FirstOrder = styled.div`
 	color: ${(props) => props.theme.colors.GraniteGray};
-	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-weight: ${(props) => props.theme.fontWeight.semiBold};
 	font-size: 12px;
 	line-height: 16px;
 	font-family: 'Mier A Demi';
 	position: relative;
 	padding-left: 20px;
+	margin: 1rem 0;
 
 	&:before {
 		position: absolute;
 		left: 0;
+		top: -2px;
 		display: inline-block;
 		content: ' ';
-		width: 14px;
-		height: 14px;
+		width: 16px;
+		height: 16px;
 		background-image: url(${percentageIcon});
 		background-size: contain;
 	}
@@ -87,7 +106,7 @@ const Rating = styled.span`
 	background-color: ${(props) => props.theme.colors.MediumSeaGreen};
 	color: ${(props) => props.theme.colors.white};
 	padding: 5px 22px 3px 8px;
-	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-weight: ${(props) => props.theme.fontWeight.semiBold};
 	font-size: 16px;
 	line-height: 20px;
 	font-family: 'Mier A Demi';
@@ -112,7 +131,7 @@ const Rating = styled.span`
 
 const Reviews = styled.div`
 	color: ${(props) => props.theme.colors.SpanishGray};
-	font-weight: ${(props) => props.theme.colors.semiBold};
+	font-weight: ${(props) => props.theme.fontWeight.semiBold};
 	font-size: 12px;
 	line-height: 16px;
 	font-family: 'Mier A Demi';
@@ -129,6 +148,8 @@ export {
 	Box,
 	ProductName,
 	ProductOffer,
+	Price,
+	OldPrice,
 	FirstOrder,
 	Rating,
 	Reviews,

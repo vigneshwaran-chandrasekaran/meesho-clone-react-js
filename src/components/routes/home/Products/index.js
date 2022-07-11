@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, Flex } from 'components/atoms';
+import { Rupee } from 'components/common';
 import * as Styles from './styles';
 import tShirt from 'assets/images/boy-white-black-t-shirt.jpg';
 
@@ -31,9 +32,17 @@ export default function Products() {
 							<Image width={227} height={232} src={product.image} />
 							<Styles.Box>
 								<Styles.ProductName>{product.title}</Styles.ProductName>
-								<Styles.ProductOffer>{product.offer} % Off</Styles.ProductOffer>
+								<Flex alignItems="center">
+									<Styles.Price>
+										<Rupee>{product.offer}</Rupee>
+									</Styles.Price>
+									<Styles.OldPrice>
+										<Rupee>{product.offer}</Rupee>
+									</Styles.OldPrice>
+									<Styles.ProductOffer>{product.offer} % Off</Styles.ProductOffer>
+								</Flex>
 								<Styles.FirstOrder>
-									{product.firstOrderOffer} discount on 1st order
+									<Rupee>{product.firstOrderOffer}</Rupee> discount on 1st order
 								</Styles.FirstOrder>
 								<Flex alignItems="center">
 									<Styles.Rating>{product.rating}</Styles.Rating>
