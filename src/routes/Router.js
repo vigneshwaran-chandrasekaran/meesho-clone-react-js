@@ -6,7 +6,7 @@ import { Header } from 'components/common';
 
 const Container = styled.div`
 	padding-top: 80px;
-	max-width: 1328px;
+	max-width: 1280px;
 	margin: 0 auto;
 `;
 

@@ -1,58 +1,43 @@
 import styled from 'styled-components';
 import { Link as A } from 'react-router-dom';
 
-const Header = styled.header`
+const Container = styled.header`
 	position: fixed;
 	left: 0;
 	top: 0;
-	width: 100vw;
+	width: 100%;
 	background-color: ${(props) => props.theme.colors.white};
 	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-	padding: 0 ${(props) => props.theme.fontSize.xl};
-	display: flex;
-	align-items: center;
-	justify-content: center;
 `;
 
-const Search = styled.input`
-	background-color: rgb(238, 243, 248);
-	border: 0;
-	height: 34px;
+const Header = styled.nav`
+	display: flex;
+	flex-direction: column;
+	max-width: 1280px;
+	margin: 0 auto;
 `;
 
 const Links = styled.div`
+	width: 100%;
 	display: flex;
 	align-items: center;
-	border-radius: 5px;
-	margin-left: 15rem;
+	justify-content: space-between;
 `;
 
 const Link = styled(A)`
-	padding: 0.5rem 1rem 0 1rem;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	text-decoration: none;
-	border-bottom: 2px solid black;
-`;
-
-const LinkText = styled.span`
-	padding: 5px 0;
-	font-size: 12px;
-	color: rgba(0, 0, 0, 0.9);
-`;
-
-const Premium = styled(A)`
-	color: ${(props) => props.theme.colors.brown};
-	font-size: 12px;
-	max-width: 85px;
-	text-align: center;
-	line-height: 15px;
-	text-decoration: none;
+	border-bottom: 3px solid ${(props) => props.theme.colors.white};
 
 	&:hover {
-		text-decoration: underline;
+		border-bottom: 3px solid ${(props) => props.theme.colors.primary};
 	}
 `;
 
-export { Header, LinkText, Link, Links, Search, Premium };
+const LinkText = styled.span`
+	padding: 1rem 0;
+	color: ${(props) => props.theme.colors.jet};
+	font-family: 'Mier B Book';
+`;
+
+export { Container, Header, LinkText, Link, Links };

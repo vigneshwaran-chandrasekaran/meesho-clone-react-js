@@ -1,21 +1,30 @@
 import React from 'react';
-import meesho from 'assets/images/m-loader.png';
-import { Image } from 'components/atoms';
 import * as Styled from './styles';
+
+const links = [
+	{ id: 1, text: 'Women Ethnic', to: '/' },
+	{ id: 2, text: 'Women Western', to: '/' },
+	{ id: 3, text: 'Jewellery & Accessories', to: '/' },
+	{ id: 4, text: 'Men', to: '/' },
+	{ id: 5, text: 'Beauty & Health', to: '/' },
+	{ id: 6, text: 'Bags & Footwear', to: '/' },
+	{ id: 7, text: 'Home & Kitchen', to: '/' },
+	{ id: 8, text: 'Kids', to: '/' },
+	{ id: 9, text: 'Electronics', to: '/' },
+];
 
 export default function Header() {
 	return (
-		<div>
+		<Styled.Container>
 			<Styled.Header>
-				<Image width={36} height={36} src={meesho} />
-				<Styled.Search placeholder="Search" />
 				<Styled.Links>
-					<Styled.Link to="/">
-						<Image width={24} height={24} src={meesho} />
-						<Styled.LinkText>Home</Styled.LinkText>
-					</Styled.Link>
+					{links.map((link) => (
+						<Styled.Link key={link?.id} to={link?.to}>
+							<Styled.LinkText>{link?.text}</Styled.LinkText>
+						</Styled.Link>
+					))}
 				</Styled.Links>
 			</Styled.Header>
-		</div>
+		</Styled.Container>
 	);
 }

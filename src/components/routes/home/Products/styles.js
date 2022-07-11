@@ -4,7 +4,7 @@ import percentageIcon from 'assets/svg/percentage.svg';
 import ratingStar from 'assets/svg/rating-star.svg';
 
 const Title = styled.h4`
-	color: ${(props) => props.theme.colors.Jet};
+	color: ${(props) => props.theme.colors.jet};
 	font-weight: ${(props) => props.theme.fontWeight.bold};
 	font-size: 2rem;
 	font-style: normal;
@@ -17,7 +17,7 @@ const Container = styled.div`
 	width: 100%;
 	font-family: ${(props) => props.theme.fontFamily.demi};
 	background-color: ${(props) => props.theme.colors.white};
-	color: ${(props) => props.theme.colors.Jet};
+	color: ${(props) => props.theme.colors.jet};
 	border: 1px solid ${(props) => props.theme.colors.Gainsboro};
 	padding: 18px 24px;
 	border-radius: 8px;
