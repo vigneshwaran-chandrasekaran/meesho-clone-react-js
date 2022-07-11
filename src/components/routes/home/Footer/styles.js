@@ -19,6 +19,7 @@ const Link = styled(A)`
 
 	&::after {
 		content: ' | ';
+		padding: 0 5px;
 		color: ${(props) => props.theme.colors.jet};
 	}
 
