@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Styles from './styles';
+import { Footer } from 'components/routes/home';
 
 const data = [
 	{
@@ -103,6 +104,7 @@ export default function About() {
 					))}
 				</Styles.Item>
 			))}
+			<Footer />
 		</Styles.Container>
 	);
 }
