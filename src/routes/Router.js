@@ -5,7 +5,7 @@ import * as Pages from 'routes';
 import { Header } from 'components/common';
 
 const Container = styled.div`
-	padding-top: 110px;
+	padding-top: 10rem;
 	max-width: 1280px;
 	margin: 0 auto;
 `;

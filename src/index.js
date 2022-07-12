@@ -24,7 +24,8 @@ const GlobalStyle = createGlobalStyle`
     letter-spacing: 0.5px;
     line-height: 1.5;
     text-align: left;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
+	background-color: ${(props) => props.theme.colors.white};
 	}
 `;
 

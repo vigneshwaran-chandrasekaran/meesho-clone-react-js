@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { About, Products } from 'components/routes/home';
+import { About, Products, Categories } from 'components/routes/home';
 
 const Container = styled.div`
 	display: flex;
@@ -10,6 +10,7 @@ const Container = styled.div`
 export default function Home() {
 	return (
 		<Container>
+			<Categories />
 			<Products />
 			<About />
 		</Container>
