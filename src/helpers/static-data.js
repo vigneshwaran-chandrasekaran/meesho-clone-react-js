@@ -220,7 +220,47 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Kids Lunch Boxes',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Kids Ethnic Jackets',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Kids Blazers',
+				to: '/',
+			},
+			{
+				id: 4,
+				title: 'Rompers',
+				to: '/',
+			},
+			{
+				id: 5,
+				title: 'Kids Kurtis & Kurtas',
+				to: '/',
+			},
+			{
+				id: 6,
+				title: 'Kids Salwar Suit Sets',
+				to: '/',
+			},
+			{
+				id: 7,
+				title: 'Kids Ethnic Gowns',
+				to: '/',
+			},
+			{
+				id: 8,
+				title: 'Tshirts Boys',
+				to: '/',
+			},
+			{
+				id: 9,
+				title: 'Girls Stylish Tops',
 				to: '/',
 			},
 		],
@@ -231,7 +271,27 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Baby Pillows',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Baby Towels',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Baby Hanging Cradle',
+				to: '/',
+			},
+			{
+				id: 4,
+				title: 'Baby Sleeping Bag',
+				to: '/',
+			},
+			{
+				id: 5,
+				title: 'Baby Blanket',
 				to: '/',
 			},
 		],
