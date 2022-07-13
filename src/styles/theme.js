@@ -13,6 +13,8 @@ export const theme = {
 		SpanishGray: '#999999',
 		SeaGreen: '#038d63',
 		MediumSeaGreen: '#23bb75',
+		RaisinBlack: '#202024',
+		CarnationPink: '#f7a8ca',
 	},
 	fontSize: {
 		xl: '2.4rem',

@@ -51,4 +51,33 @@ const Download = styled.div`
 	line-height: 24px;
 `;
 
-export { Container, Info, Title, Download, Products };
+const Top = styled.div`
+	font-size: 36px;
+	margin: 4rem 0 2rem 0;
+	text-align: center;
+	font-family: 'Mier A';
+	font-weight: ${(props) => props.theme.fontWeight.semiBold};
+	line-height: 54px;
+	letter-spacing: 0.7px;
+	color: ${(props) => props.theme.colors.RaisinBlack};
+
+	&::before,
+	&::after {
+		background-color: ${(props) => props.theme.colors.CarnationPink};
+		content: '';
+		display: inline-block;
+		position: relative;
+		height: 0.5px;
+		vertical-align: middle;
+		width: 15%;
+	}
+
+	&::before {
+		right: 4rem;
+	}
+	&::after {
+		left: 4rem;
+	}
+`;
+
+export { Container, Info, Title, Download, Products, Top };
