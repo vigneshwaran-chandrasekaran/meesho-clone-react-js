@@ -5,6 +5,7 @@ import { Rupee } from 'components/common';
 import * as Styles from './styles';
 import tShirt from 'assets/images/boy-white-black-t-shirt.jpg';
 import baby from 'assets/images/baby.jpg';
+import downArrow from 'assets/svg/down-arrow.svg';
 
 const products = [
 	{
@@ -177,12 +178,65 @@ const products = [
 	},
 ];
 
+const productTypes = [
+	{ id: 1, name: 'Category' },
+	{ id: 2, name: 'Gender' },
+	{ id: 3, name: 'Fabric' },
+	{ id: 4, name: 'Color' },
+	{ id: 5, name: 'Price' },
+	{ id: 6, name: 'Discount' },
+	{ id: 7, name: 'Rating' },
+	{ id: 8, name: 'Size' },
+	{ id: 9, name: 'Combo' },
+	{ id: 10, name: 'Material' },
+	{ id: 11, name: 'Bottom Length' },
+	{ id: 12, name: 'Print Or Pattern Type' },
+	{ id: 13, name: 'Bottom Style' },
+	{ id: 14, name: 'Bottomwear Fabric' },
+	{ id: 15, name: 'Ornamentation' },
+	{ id: 16, name: 'Bottom Pattern Type' },
+	{ id: 17, name: 'Border' },
+	{ id: 18, name: 'Surface Styling' },
+	{ id: 19, name: 'Back Type' },
+	{ id: 20, name: 'Top Pattern' },
+	{ id: 21, name: 'Fit/ Shape' },
+	{ id: 22, name: 'Top Type' },
+	{ id: 23, name: 'Brand' },
+	{ id: 24, name: 'Compatible Models' },
+	{ id: 25, name: 'Warranty Period' },
+	{ id: 26, name: 'Bottom Type' },
+	{ id: 27, name: 'Heel Type' },
+	{ id: 28, name: 'Dial Design' },
+	{ id: 29, name: 'Type' },
+	{ id: 30, name: 'Type of Skin' },
+	{ id: 31, name: 'Shade' },
+	{ id: 32, name: 'Type of Hair' },
+	{ id: 33, name: 'Language' },
+	{ id: 34, name: 'Book Format' },
+	{ id: 35, name: 'Board' },
+	{ id: 36, name: 'Container Type' },
+	{ id: 37, name: 'Brush Head Type' },
+	{ id: 38, name: 'Refilling Type' },
+	{ id: 39, name: 'Weight' },
+	{ id: 40, name: 'Flavour' },
+	{ id: 41, name: 'Region' },
+];
+
 export default function Products() {
 	return (
 		<>
 			<Styles.Title>Products For You</Styles.Title>
 			<Styles.Parent>
-				<Styles.Left>Products For You</Styles.Left>
+				<Styles.Left>
+					<Styles.Products>
+						{productTypes?.map((product) => (
+							<Styles.Product key={product?.id}>
+								<Styles.ProductTitle>{product?.name}</Styles.ProductTitle>
+								<Image src={downArrow} />
+							</Styles.Product>
+						))}
+					</Styles.Products>
+				</Styles.Left>
 				<Styles.Right>
 					{products.map((product) => (
 						<Styles.Card key={product.id} to={product.path}>

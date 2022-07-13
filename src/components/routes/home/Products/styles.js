@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { Flex } from 'components/atoms';
 import percentageIcon from 'assets/svg/percentage.svg';
 import ratingStar from 'assets/svg/rating-star.svg';
 
@@ -29,7 +30,29 @@ const Parent = styled.div`
 `;
 
 const Left = styled.div`
-	width: 25%;
+	width: 23%;
+`;
+
+const Products = styled(Flex)`
+	flex-direction: column;
+	border: 1px solid ${(props) => props.theme.colors.Gainsboro};
+	border-radius: 8px;
+`;
+
+const Product = styled(Flex)`
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	border-bottom: 1px solid ${(props) => props.theme.colors.Gainsboro};
+	margin: 0 1rem;
+`;
+
+const ProductTitle = styled.div`
+	font-size: 20px;
+	color: ${(props) => props.theme.colors.jet};
+	font-weight: ${(props) => props.theme.fontWeight.bold};
+	font-family: 'Mier B';
+	line-height: 28px;
 `;
 
 const Right = styled.div`
@@ -162,6 +185,9 @@ export {
 	Container,
 	Parent,
 	Left,
+	Products,
+	Product,
+	ProductTitle,
 	Right,
 	Card,
 	Box,
