@@ -53,7 +53,7 @@ const Download = styled.div`
 
 const Top = styled.div`
 	font-size: 36px;
-	margin: 4rem 0 2rem 0;
+	margin: 4rem 0 3rem 0;
 	text-align: center;
 	font-family: 'Mier A';
 	font-weight: ${(props) => props.theme.fontWeight.semiBold};
