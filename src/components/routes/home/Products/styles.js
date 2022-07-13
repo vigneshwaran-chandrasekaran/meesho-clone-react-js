@@ -35,14 +35,15 @@ const Left = styled.div`
 const Right = styled.div`
 	width: 75%;
 	display: flex;
+	flex-wrap: wrap;
 `;
 
 const Card = styled(Link)`
 	background-color: ${(props) => props.theme.colors.white};
 	border: 1px solid ${(props) => props.theme.colors.Cultured};
 	text-decoration: none;
-	max-width: 25%;
-	margin: 0px 20px 20px 0px;
+	max-width: 23%;
+	margin: 0px 15px 20px 0px;
 `;
 
 const Box = styled.div`
