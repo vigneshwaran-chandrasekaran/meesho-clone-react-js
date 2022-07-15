@@ -209,7 +209,47 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Leather Watches Men',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Gold Jewellery Men',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Hair Spray For Men',
+				to: '/',
+			},
+			{
+				id: 4,
+				title: 'Men Keychains',
+				to: '/',
+			},
+			{
+				id: 5,
+				title: 'Men Socks',
+				to: '/',
+			},
+			{
+				id: 6,
+				title: 'Men Scarves',
+				to: '/',
+			},
+			{
+				id: 7,
+				title: 'Men Wrist Bands',
+				to: '/',
+			},
+			{
+				id: 8,
+				title: 'Men Crossbody Bags',
+				to: '/',
+			},
+			{
+				id: 9,
+				title: 'Men Shirt Studs',
 				to: '/',
 			},
 		],
