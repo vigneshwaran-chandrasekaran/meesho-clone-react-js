@@ -187,7 +187,82 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Cotton Shorts Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Denim Jeans Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Formal Trousers Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Men Active Shorts',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Sport Jackets Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Printed Tshirts',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Formal Shirts Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Sleeveless Sweatshirts Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Leather Jackets Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Grey Blazers',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Men Sweaters',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Sport Tracksuits Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Vests',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Printed Briefs Men',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Men Trunks',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Wool Jackets Men',
 				to: '/',
 			},
 		],
@@ -198,7 +273,17 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Reebok Sports Shoes Men',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Men Sandals',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Leather Loafers Men',
 				to: '/',
 			},
 		],
