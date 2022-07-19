@@ -143,7 +143,67 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Silk Saree',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Puff Sleeve Blouses',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Chikankari Kurtis',
+				to: '/',
+			},
+			{
+				id: 4,
+				title: 'Designer Lehenga',
+				to: '/',
+			},
+			{
+				id: 5,
+				title: 'Sharara',
+				to: '/',
+			},
+			{
+				id: 6,
+				title: 'Phulkari Dupatta',
+				to: '/',
+			},
+			{
+				id: 7,
+				title: 'Petticoats',
+				to: '/',
+			},
+			{
+				id: 8,
+				title: 'Abaya',
+				to: '/',
+			},
+			{
+				id: 9,
+				title: 'Black Kurta',
+				to: '/',
+			},
+			{
+				id: 10,
+				title: 'Velvet Shawls',
+				to: '/',
+			},
+			{
+				id: 11,
+				title: 'Blouse Piece',
+				to: '/',
+			},
+			{
+				id: 12,
+				title: 'Kurti Fabric',
+				to: '/',
+			},
+			{
+				id: 13,
+				title: 'Designer Suits',
 				to: '/',
 			},
 		],
@@ -154,7 +214,17 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Women Slippers',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Bellies',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Juttis & Mojaris',
 				to: '/',
 			},
 		],
@@ -165,7 +235,147 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Hoop Earrings',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Stud Earrings Women',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Oxidised Ring',
+				to: '/',
+			},
+			{
+				id: 4,
+				title: 'Handbags',
+				to: '/',
+			},
+			{
+				id: 5,
+				title: 'Umbrellas',
+				to: '/',
+			},
+			{
+				id: 6,
+				title: 'Cateye Sunglasses',
+				to: '/',
+			},
+			{
+				id: 7,
+				title: 'Jewellery Set',
+				to: '/',
+			},
+			{
+				id: 8,
+				title: 'Slingbags',
+				to: '/',
+			},
+			{
+				id: 9,
+				title: 'Trolley Bags',
+				to: '/',
+			},
+			{
+				id: 1,
+				title: 'Hijabs',
+				to: '/',
+			},
+			{
+				id: 10,
+				title: 'Ankle Socks Women',
+				to: '/',
+			},
+			{
+				id: 11,
+				title: 'Clutches',
+				to: '/',
+			},
+			{
+				id: 12,
+				title: 'Hair Accessories',
+				to: '/',
+			},
+			{
+				id: 13,
+				title: 'Maangtika',
+				to: '/',
+			},
+			{
+				id: 14,
+				title: 'Pouches',
+				to: '/',
+			},
+			{
+				id: 15,
+				title: 'Duffle Bags',
+				to: '/',
+			},
+			{
+				id: 16,
+				title: 'Pashmina Shawls',
+				to: '/',
+			},
+			{
+				id: 17,
+				title: 'Bindis',
+				to: '/',
+			},
+			{
+				id: 18,
+				title: 'Waist Bags',
+				to: '/',
+			},
+			{
+				id: 19,
+				title: 'Rucksacks',
+				to: '/',
+			},
+			{
+				id: 20,
+				title: 'Briefcases',
+				to: '/',
+			},
+			{
+				id: 21,
+				title: 'Small Travel Bags',
+				to: '/',
+			},
+			{
+				id: 22,
+				title: 'Potlis',
+				to: '/',
+			},
+			{
+				id: 23,
+				title: 'Nosepins',
+				to: '/',
+			},
+			{
+				id: 24,
+				title: 'Gold Bangles',
+				to: '/',
+			},
+			{
+				id: 25,
+				title: 'Bridal Anklets',
+				to: '/',
+			},
+			{
+				id: 26,
+				title: 'Chandbali Earrings',
+				to: '/',
+			},
+			{
+				id: 27,
+				title: 'Necklaces',
+				to: '/',
+			},
+			{
+				id: 28,
+				title: 'Multi Necklace',
 				to: '/',
 			},
 		],
