@@ -176,7 +176,132 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Android Smart Watches',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'On Ear Headphones',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Bluetooth Speakers',
+				to: '/',
+			},
+			{
+				id: 4,
+				title: 'Bluetooth Earphones',
+				to: '/',
+			},
+			{
+				id: 5,
+				title: 'Sport Headphones',
+				to: '/',
+			},
+			{
+				id: 6,
+				title: 'CCTV Cameras',
+				to: '/',
+			},
+			{
+				id: 7,
+				title: 'Spy Cameras',
+				to: '/',
+			},
+			{
+				id: 8,
+				title: 'Keyboard',
+				to: '/',
+			},
+			{
+				id: 9,
+				title: 'Laptop Bags',
+				to: '/',
+			},
+			{
+				id: 10,
+				title: 'Mouse',
+				to: '/',
+			},
+			{
+				id: 11,
+				title: 'Laptop Accessories',
+				to: '/',
+			},
+			{
+				id: 12,
+				title: 'Pen Drives',
+				to: '/',
+			},
+			{
+				id: 13,
+				title: 'Earphones',
+				to: '/',
+			},
+			{
+				id: 14,
+				title: 'Fast Charging Power Banks',
+				to: '/',
+			},
+			{
+				id: 15,
+				title: 'Headphones',
+				to: '/',
+			},
+			{
+				id: 16,
+				title: 'Data Cables',
+				to: '/',
+			},
+			{
+				id: 17,
+				title: 'Car Mobile Holders',
+				to: '/',
+			},
+			{
+				id: 18,
+				title: 'Car Mobile Holders',
+				to: '/',
+			},
+			{
+				id: 19,
+				title: 'Mobile Chargers',
+				to: '/',
+			},
+			{
+				id: 20,
+				title: 'Speakers',
+				to: '/',
+			},
+			{
+				id: 21,
+				title: 'Diwali Lightings',
+				to: '/',
+			},
+			{
+				id: 22,
+				title: 'Microphone',
+				to: '/',
+			},
+			{
+				id: 23,
+				title: 'Memory Cards',
+				to: '/',
+			},
+			{
+				id: 24,
+				title: 'Digital Photo Frames',
+				to: '/',
+			},
+			{
+				id: 25,
+				title: 'Dongle',
+				to: '/',
+			},
+			{
+				id: 26,
+				title: 'VR Box',
 				to: '/',
 			},
 		],
