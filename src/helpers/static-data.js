@@ -132,7 +132,172 @@ const footerLinks = [
 		links: [
 			{
 				id: 1,
-				title: 'Kurtas',
+				title: 'Women Frocks',
+				to: '/',
+			},
+			{
+				id: 2,
+				title: 'Long Tops Women',
+				to: '/',
+			},
+			{
+				id: 3,
+				title: 'Tshirt Dresses',
+				to: '/',
+			},
+			{
+				id: 4,
+				title: 'Designer Gown',
+				to: '/',
+			},
+			{
+				id: 5,
+				title: 'Pencil Skirts',
+				to: '/',
+			},
+			{
+				id: 6,
+				title: 'Women Trousers',
+				to: '/',
+			},
+			{
+				id: 7,
+				title: 'Flared Jeans',
+				to: '/',
+			},
+			{
+				id: 8,
+				title: 'Women Sweatshirts',
+				to: '/',
+			},
+			{
+				id: 9,
+				title: 'Shrugs',
+				to: '/',
+			},
+			{
+				id: 10,
+				title: 'Capris',
+				to: '/',
+			},
+			{
+				id: 11,
+				title: 'Jacket Dresses',
+				to: '/',
+			},
+			{
+				id: 12,
+				title: 'Fancy Ladies Sweater',
+				to: '/',
+			},
+			{
+				id: 13,
+				title: 'Chikankari Palazzos',
+				to: '/',
+			},
+			{
+				id: 14,
+				title: 'Ankle Length Leggings',
+				to: '/',
+			},
+			{
+				id: 15,
+				title: 'Tights',
+				to: '/',
+			},
+			{
+				id: 16,
+				title: 'Printed Leggings',
+				to: '/',
+			},
+			{
+				id: 17,
+				title: 'Kaftans',
+				to: '/',
+			},
+			{
+				id: 18,
+				title: 'Maternity Wear',
+				to: '/',
+			},
+			{
+				id: 19,
+				title: 'Denim Women Shorts',
+				to: '/',
+			},
+			{
+				id: 20,
+				title: 'Black Jeggings',
+				to: '/',
+			},
+			{
+				id: 21,
+				title: 'Short Night Dress',
+				to: '/',
+			},
+			{
+				id: 22,
+				title: 'Women Night Suits',
+				to: '/',
+			},
+			{
+				id: 23,
+				title: 'Lace Lingerie Sets',
+				to: '/',
+			},
+			{
+				id: 24,
+				title: 'Lingerie Sets',
+				to: '/',
+			},
+			{
+				id: 25,
+				title: 'Push Up Bra',
+				to: '/',
+			},
+			{
+				id: 26,
+				title: 'Stockings',
+				to: '/',
+			},
+			{
+				id: 27,
+				title: 'Black Camisoles',
+				to: '/',
+			},
+			{
+				id: 28,
+				title: 'Cotton Bathrobes',
+				to: '/',
+			},
+			{
+				id: 29,
+				title: 'Satin Night Suit',
+				to: '/',
+			},
+			{
+				id: 30,
+				title: 'Body shapers',
+				to: '/',
+			},
+			{
+				id: 31,
+				title: 'Women Pyjamas',
+				to: '/',
+			},
+			{
+				id: 32,
+				title: 'Swimwear',
+				to: '/',
+			},
+			{
+				id: 33,
+				title: 'Women Jackets',
+				to: '/',
+			},
+			{
+				id: 34,
+				title: 'Women Thermal Set',
 				to: '/',
 			},
 		],
