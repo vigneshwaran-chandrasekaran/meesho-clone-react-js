@@ -44,6 +44,66 @@ const data = [
 		],
 	},
 	{
+		id: 4,
+		title: `Women’s Ethnic Wear Collection`,
+		descriptions: [
+			{
+				id: 1,
+				content: `No matter what occasion or season, you’ll find the perfect outfits in our latest women’s ethnic wear collection. From traditional Sarees and Blouses to classy Suits, and casual Kurtis, we have it all. Picking the perfect outfit for your next wedding party or festive celebration is effortless when you shop with us! Check out our stunning collection of accessories, footwear jewellery sets, and earrings to go with your ethnic look.`,
+			},
+		],
+	},
+	{
+		id: 5,
+		title: `Jewellery, Accessories, and Footwear`,
+		descriptions: [
+			{
+				id: 1,
+				content: `Meesho`,
+			},
+		],
+	},
+	{
+		id: 6,
+		title: `The Latest Collection of Men’s Fashion Just a Click Away Western Wear for Men`,
+		descriptions: [
+			{
+				id: 1,
+				content: `Meesho`,
+			},
+		],
+	},
+	{
+		id: 7,
+		title: `Men's Ethnic Wear`,
+		descriptions: [
+			{
+				id: 1,
+				content: `Meesho`,
+			},
+		],
+	},
+	{
+		id: 8,
+		title: `Accessories, Footwear, and more`,
+		descriptions: [
+			{
+				id: 1,
+				content: `Meesho`,
+			},
+		],
+	},
+	{
+		id: 9,
+		title: `Best Quality Beauty Products at Low Prices`,
+		descriptions: [
+			{
+				id: 1,
+				content: `Meesho`,
+			},
+		],
+	},
+	{
 		id: 2222,
 		title: 'Become a Reseller: Start Making Money In Three Simple Steps',
 		descriptions: [

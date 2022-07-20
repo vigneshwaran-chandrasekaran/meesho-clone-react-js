@@ -8,7 +8,7 @@ const Container = styled.div`
 	border: 1px solid ${(props) => props.theme.colors.Gainsboro};
 	padding: 18px 24px;
 	border-radius: 8px;
-	margin-bottom: 5rem;
+	margin: 3rem 0 5rem;
 `;
 
 const Item = styled.div`
