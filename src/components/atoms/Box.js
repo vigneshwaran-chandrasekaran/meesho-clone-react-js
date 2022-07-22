@@ -28,9 +28,6 @@ const Box = styled.div`
 		css`
 			width: ${width};
 		`}
-	border-radius: 0.8rem;
-	background-color: #fff;
-	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
 `;
 
 export default Box;

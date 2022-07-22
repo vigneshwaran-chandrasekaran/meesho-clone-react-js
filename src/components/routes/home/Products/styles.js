@@ -27,6 +27,7 @@ const Container = styled.div`
 const Parent = styled.div`
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 `;
 
 const Left = styled.div`

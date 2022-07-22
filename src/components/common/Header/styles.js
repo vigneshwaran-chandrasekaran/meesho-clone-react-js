@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link as A } from 'react-router-dom';
+import { Box } from 'components/atoms';
 import searchIcon from 'assets/svg/search.svg';
 
 const Container = styled.header`
@@ -58,7 +59,7 @@ const Search = styled.input.attrs((props) => ({
 	margin-left: 1rem;
 `;
 
-const Text = styled.div`
+const Text = styled(Box)`
 	display: inline-block;
 	font-family: 'Mier B Book';
 	color: ${(props) => props.theme.colors.jet};
@@ -67,11 +68,31 @@ const Text = styled.div`
 	padding: 0 1rem;
 `;
 
+const Menu = styled.div`
+	/* display: none; */
+	width: 100%;
+	padding: 0 24px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -24px;
+
+	&:hover {
+		display: flex;
+	}
+`;
+
 const Header = styled.nav`
 	display: flex;
 	flex-direction: column;
 	max-width: 1280px;
 	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+
+	&:hover ${Menu} {
+		display: flex;
+	}
 `;
 
 const Links = styled.div`
@@ -102,4 +123,16 @@ const LinkText = styled.span`
 	}
 `;
 
-export { Container, TopHeader, SearchBox, Search, Text, TopLinks, Header, LinkText, Link, Links };
+export {
+	Container,
+	TopHeader,
+	SearchBox,
+	Search,
+	Text,
+	TopLinks,
+	Header,
+	LinkText,
+	Link,
+	Links,
+	Menu,
+};
