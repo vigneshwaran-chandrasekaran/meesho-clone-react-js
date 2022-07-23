@@ -75,11 +75,47 @@ const Menu = styled.div`
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: -24px;
+	top: 53px;
+	box-shadow: rgb(0 0 0 / 5%) 2px 2px 4px 0px;
+	animation: 200ms ease-in 0s 1 normal none running fadeIn;
+	border-style: solid;
+	border-color: rgb(215, 215, 224);
+	border-width: 0px 0.5px 0.5px;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: white;
+	padding: 1rem;
 
 	&:hover {
 		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
 	}
+`;
+
+const SubMenus = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+`;
+
+const MenuTitle = styled.div`
+	color: ${(props) => props.theme.colors.primary};
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 1rem;
+`;
+
+const MenuLink = styled.div`
+	color: ${(props) => props.theme.colors.jet};
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 0.35rem 0;
 `;
 
 const Header = styled.nav`
@@ -135,4 +171,7 @@ export {
 	Link,
 	Links,
 	Menu,
+	SubMenus,
+	MenuTitle,
+	MenuLink,
 };

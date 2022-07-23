@@ -1455,7 +1455,70 @@ const productTypes = [
 ];
 
 const links = [
-	{ id: 1, text: 'Women Ethnic', to: '/' },
+	{
+		id: 1,
+		text: 'Women Ethnic',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+			{
+				id: 2,
+				menuTitle: 'Sarees',
+				menus: [
+					{ id: 1, text: 'All Sarees', to: '/' },
+					{ id: 2, text: 'Silk Sarees', to: '/' },
+					{ id: 3, text: 'Cotton Silk Sarees', to: '/' },
+					{ id: 4, text: 'Cotton Sarees', to: '/' },
+					{ id: 5, text: 'Georgette Sarees', to: '/' },
+					{ id: 6, text: 'Chiffon Sarees', to: '/' },
+					{ id: 7, text: 'Satin Sarees', to: '/' },
+					{ id: 8, text: 'Embroidered Sarees', to: '/' },
+				],
+			},
+			{
+				id: 3,
+				menuTitle: 'Kurtis',
+				menus: [
+					{ id: 1, text: 'All Kurtis', to: '/' },
+					{ id: 2, text: 'Anarkali Kurtis', to: '/' },
+					{ id: 3, text: 'Rayon Kurtis', to: '/' },
+					{ id: 4, text: 'Cotton Kurtis', to: '/' },
+					{ id: 5, text: 'Embroidered Kurtis', to: '/' },
+				],
+			},
+			{
+				id: 4,
+				menuTitle: 'Suits & Dress Material',
+				menus: [
+					{ id: 1, text: 'All Suits & Dress Material', to: '/' },
+					{ id: 2, text: 'Cotton Suits', to: '/' },
+					{ id: 3, text: 'Embroidered Suits', to: '/' },
+					{ id: 4, text: 'Chanderi Suits', to: '/' },
+				],
+			},
+			{
+				id: 5,
+				menuTitle: 'Other Ethnic',
+				menus: [
+					{ id: 1, text: 'Blouses', to: '/' },
+					{ id: 2, text: 'Dupattas', to: '/' },
+					{ id: 3, text: 'Lehanga', to: '/' },
+					{ id: 4, text: 'Gown', to: '/' },
+					{ id: 5, text: 'Other Ethnic', to: '/' },
+					{ id: 6, text: 'Ethnic Bottomwear', to: '/' },
+				],
+			},
+			{
+				id: 6,
+				menuTitle: 'Kurta Sets',
+				menus: [{ id: 1, text: 'All Kurta Sets', to: '/' }],
+			},
+		],
+	},
 	{ id: 2, text: 'Women Western', to: '/' },
 	{ id: 3, text: 'Jewellery & Accessories', to: '/' },
 	{ id: 4, text: 'Men', to: '/' },

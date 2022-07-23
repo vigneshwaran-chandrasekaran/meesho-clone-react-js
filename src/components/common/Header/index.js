@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import * as Styled from './styles';
 import { Image, Flex } from 'components/atoms';
 import meeshoLogo from 'assets/svg/meesho-logo.svg';
@@ -8,6 +8,13 @@ import download from 'assets/svg/download.svg';
 import { links } from 'helpers/static-data';
 
 export default function Header() {
+	const [menus, setSubMenus] = useState([]);
+
+	function handleMenuHover(subMenus = []) {
+		console.log('subMenus', subMenus);
+		setSubMenus(subMenus);
+	}
+
 	return (
 		<Styled.Container>
 			<Styled.TopHeader>
@@ -39,12 +46,31 @@ export default function Header() {
 				<Styled.Header>
 					<Styled.Links>
 						{links.map((item) => (
-							<Styled.Link key={item?.id} to={item?.to}>
+							<Styled.Link
+								key={item?.id}
+								to={item?.to}
+								onMouseEnter={() => handleMenuHover(item?.subMenus)}
+							>
 								<Styled.LinkText>{item?.text}</Styled.LinkText>
 							</Styled.Link>
 						))}
 					</Styled.Links>
-					<Styled.Menu>Links</Styled.Menu>
+					{menus?.length > 0 && (
+						<Styled.Menu>
+							{menus?.map((item) => (
+								<Styled.SubMenus key={item?.id}>
+									<Styled.MenuTitle>{item?.menuTitle}</Styled.MenuTitle>
+									<div>
+										{item?.menus?.map((sub) => (
+											<Styled.MenuLink key={sub?.id}>
+												{sub?.text}
+											</Styled.MenuLink>
+										))}
+									</div>
+								</Styled.SubMenus>
+							))}
+						</Styled.Menu>
+					)}
 				</Styled.Header>
 			</Styled.TopHeader>
 		</Styled.Container>
