@@ -1519,14 +1519,134 @@ const links = [
 			},
 		],
 	},
-	{ id: 2, text: 'Women Western', to: '/' },
-	{ id: 3, text: 'Jewellery & Accessories', to: '/' },
-	{ id: 4, text: 'Men', to: '/' },
-	{ id: 5, text: 'Beauty & Health', to: '/' },
-	{ id: 6, text: 'Bags & Footwear', to: '/' },
-	{ id: 7, text: 'Home & Kitchen', to: '/' },
-	{ id: 8, text: 'Kids', to: '/' },
-	{ id: 9, text: 'Electronics', to: '/' },
+	{
+		id: 2,
+		text: 'Women Western',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'Topwear',
+				menus: [
+					{ id: 1, text: 'Dresses', to: '/' },
+					{ id: 2, text: 'Tops', to: '/' },
+					{ id: 3, text: 'Sweaters', to: '/' },
+					{ id: 4, text: 'Jumpsuits', to: '/' },
+				],
+			},
+			{
+				id: 2,
+				menuTitle: 'Bottomwear',
+				menus: [
+					{ id: 1, text: 'Jeans', to: '/' },
+					{ id: 2, text: 'Jeggings', to: '/' },
+					{ id: 3, text: 'Palazzos', to: '/' },
+					{ id: 4, text: 'Shorts', to: '/' },
+					{ id: 5, text: 'Skirts', to: '/' },
+				],
+			},
+			{
+				id: 3,
+				menuTitle: 'Innerwear',
+				menus: [
+					{ id: 1, text: 'Bra', to: '/' },
+					{ id: 2, text: 'Briefs', to: '/' },
+				],
+			},
+			{
+				id: 4,
+				menuTitle: 'Sleepwear',
+				menus: [
+					{ id: 1, text: 'Nightsuits', to: '/' },
+					{ id: 2, text: 'Babydolls', to: '/' },
+				],
+			},
+		],
+	},
+	{
+		id: 3,
+		text: 'Jewellery & Accessories',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+		],
+	},
+	{
+		id: 4,
+		text: 'Men',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+		],
+	},
+	{
+		id: 5,
+		text: 'Beauty & Health',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+		],
+	},
+	{
+		id: 6,
+		text: 'Bags & Footwear',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+		],
+	},
+	{
+		id: 7,
+		text: 'Home & Kitchen',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+		],
+	},
+	{
+		id: 8,
+		text: 'Kids',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+		],
+	},
+	{
+		id: 9,
+		text: 'Electronics',
+		to: '/',
+		subMenus: [
+			{
+				id: 1,
+				menuTitle: 'All Women Ethnic',
+				menus: [{ id: 1, text: 'View All', to: '/' }],
+			},
+		],
+	},
 ];
 
 export { footerLinks, productTypes, products, links };
