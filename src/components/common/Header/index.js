@@ -57,8 +57,8 @@ export default function Header() {
 					</Styled.Links>
 					{menus?.length > 0 && (
 						<Styled.Menu>
-							{menus?.map((item) => (
-								<Styled.SubMenus key={item?.id}>
+							{menus?.map((item, i) => (
+								<Styled.SubMenus key={item?.id} isOdd={Boolean(i % 2)}>
 									<Styled.MenuTitle>{item?.menuTitle}</Styled.MenuTitle>
 									<div>
 										{item?.menus?.map((sub) => (

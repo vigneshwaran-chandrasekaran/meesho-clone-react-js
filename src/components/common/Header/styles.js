@@ -71,7 +71,6 @@ const Text = styled(Box)`
 const Menu = styled.div`
 	/* display: none; */
 	width: 100%;
-	padding: 0 24px;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -83,23 +82,23 @@ const Menu = styled.div`
 	border-width: 0px 0.5px 0.5px;
 	z-index: 100;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: flex-start;
 	background-color: white;
-	padding: 1rem;
 
 	&:hover {
 		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
 	}
 `;
 
 const SubMenus = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: flex-start;
+	background: ${(props) => (props.isOdd ? props.theme.colors.Cultured2 : '')};
+	padding: 0 2rem 1rem;
+	align-self: stretch;
 `;
 
 const MenuTitle = styled.div`
@@ -107,15 +106,19 @@ const MenuTitle = styled.div`
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 20px;
-	margin-bottom: 1rem;
+	padding: 1rem 0;
 `;
 
 const MenuLink = styled.div`
-	color: ${(props) => props.theme.colors.jet};
+	color: ${(props) => props.theme.colors.GraniteGray};
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
-	padding: 0.35rem 0;
+	padding: 0.5rem 0;
+
+	&:hover {
+		color: ${(props) => props.theme.colors.jet};
+	}
 `;
 
 const Header = styled.nav`
