@@ -1570,8 +1570,28 @@ const links = [
 		subMenus: [
 			{
 				id: 1,
-				menuTitle: 'All Women Ethnic',
-				menus: [{ id: 1, text: 'View All', to: '/' }],
+				menuTitle: 'Jewellery',
+				menus: [
+					{ id: 1, text: 'Jewellery Set', to: '/' },
+					{ id: 2, text: 'Mangalsutras', to: '/' },
+					{ id: 3, text: 'Earrings', to: '/' },
+					{ id: 4, text: 'Studs', to: '/' },
+					{ id: 5, text: 'Bangles', to: '/' },
+					{ id: 6, text: 'Necklaces', to: '/' },
+					{ id: 7, text: 'Rings', to: '/' },
+					{ id: 8, text: 'Anklets', to: '/' },
+				],
+			},
+			{
+				id: 3,
+				menuTitle: 'Women Accessory',
+				menus: [
+					{ id: 1, text: 'Bags', to: '/' },
+					{ id: 2, text: 'Watches', to: '/' },
+					{ id: 3, text: 'Hair Accessories', to: '/' },
+					{ id: 4, text: 'Sunglasses', to: '/' },
+					{ id: 5, text: 'Socks', to: '/' },
+				],
 			},
 		],
 	},
