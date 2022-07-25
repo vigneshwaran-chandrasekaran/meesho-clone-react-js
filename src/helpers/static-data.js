@@ -1602,8 +1602,60 @@ const links = [
 		subMenus: [
 			{
 				id: 1,
-				menuTitle: 'All Women Ethnic',
-				menus: [{ id: 1, text: 'View All', to: '/' }],
+				menuTitle: 'Top Wear',
+				menus: [
+					{ id: 1, text: 'All Top Wear', to: '/' },
+					{ id: 2, text: 'Tshirts', to: '/' },
+					{ id: 3, text: 'Shirts', to: '/' },
+				],
+			},
+			{
+				id: 2,
+				menuTitle: 'Bottom Wear',
+				menus: [
+					{ id: 1, text: 'Track Pants', to: '/' },
+					{ id: 2, text: 'Jeans', to: '/' },
+					{ id: 3, text: 'Trousers', to: '/' },
+				],
+			},
+			{
+				id: 3,
+				menuTitle: 'Men Accessories',
+				menus: [
+					{ id: 1, text: 'All Men Accessories', to: '/' },
+					{ id: 2, text: 'Watches', to: '/' },
+					{ id: 3, text: 'Belts', to: '/' },
+					{ id: 4, text: 'Wallets', to: '/' },
+					{ id: 5, text: 'Jewellery', to: '/' },
+					{ id: 6, text: 'Sunglasses', to: '/' },
+					{ id: 7, text: 'Bags', to: '/' },
+				],
+			},
+			{
+				id: 4,
+				menuTitle: 'Men Footwear',
+				menus: [
+					{ id: 1, text: 'Sports Shoes', to: '/' },
+					{ id: 2, text: 'Casual Shoes', to: '/' },
+					{ id: 3, text: 'Formal Shoes', to: '/' },
+					{ id: 4, text: 'Sandals', to: '/' },
+				],
+			},
+			{
+				id: 5,
+				menuTitle: 'Ethnic Wear',
+				menus: [
+					{ id: 1, text: 'Men Kurtas', to: '/' },
+					{ id: 2, text: 'Ethnic Jackets', to: '/' },
+				],
+			},
+			{
+				id: 6,
+				menuTitle: 'Inner & Sleep Wear',
+				menus: [
+					{ id: 1, text: 'All Inner & Sleep Wear', to: '/' },
+					{ id: 2, text: 'Vests', to: '/' },
+				],
 			},
 		],
 	},
