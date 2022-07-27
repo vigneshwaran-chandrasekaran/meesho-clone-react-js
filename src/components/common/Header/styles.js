@@ -69,7 +69,8 @@ const Text = styled(Box)`
 `;
 
 const Menu = styled.div`
-	/* display: none; */
+	display: flex;
+	display: none;
 	width: 100%;
 	position: absolute;
 	left: 0;
@@ -81,7 +82,6 @@ const Menu = styled.div`
 	border-color: rgb(215, 215, 224);
 	border-width: 0px 0.5px 0.5px;
 	z-index: 100;
-	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	background-color: white;

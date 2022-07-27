@@ -7,13 +7,23 @@ const Container = styled.div`
 	flex-direction: column;
 `;
 
+const Footer = styled.footer`
+	display: flex;
+	flex-direction: column;
+	background-color: ${(props) => props.theme.colors.Cultured2};
+	width: 100%;
+`;
+
 export default function Home() {
 	return (
 		<Container>
 			<Categories />
 			<Pictures />
 			<Products />
-			<About />
+			<Footer>
+				<p>one is one</p>
+				<About />
+			</Footer>
 		</Container>
 	);
 }

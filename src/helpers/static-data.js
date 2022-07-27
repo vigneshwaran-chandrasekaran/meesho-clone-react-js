@@ -1666,8 +1666,27 @@ const links = [
 		subMenus: [
 			{
 				id: 1,
-				menuTitle: 'All Women Ethnic',
-				menus: [{ id: 1, text: 'View All', to: '/' }],
+				menuTitle: 'Make up',
+				menus: [
+					{ id: 1, text: 'Face', to: '/' },
+					{ id: 1, text: 'Eyes', to: '/' },
+					{ id: 1, text: 'Lips', to: '/' },
+					{ id: 1, text: 'Nails', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Wellness',
+				menus: [
+					{ id: 1, text: 'Sanitizers', to: '/' },
+					{ id: 1, text: 'Oral Care', to: '/' },
+					{ id: 1, text: 'Feminine Hygiene', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Skincare',
+				menus: [{ id: 1, text: 'Deodorants', to: '/' }],
 			},
 		],
 	},
