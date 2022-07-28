@@ -1697,8 +1697,40 @@ const links = [
 		subMenus: [
 			{
 				id: 1,
-				menuTitle: 'All Women Ethnic',
-				menus: [{ id: 1, text: 'View All', to: '/' }],
+				menuTitle: 'Women Footwear',
+				menus: [
+					{ id: 1, text: 'Flats', to: '/' },
+					{ id: 1, text: 'Bellies', to: '/' },
+					{ id: 1, text: 'Juttis', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Men Footwear',
+				menus: [
+					{ id: 1, text: 'Sports Shoes', to: '/' },
+					{ id: 1, text: 'Casual Shoes', to: '/' },
+					{ id: 1, text: 'Formal Shoes', to: '/' },
+					{ id: 1, text: 'Sandals', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Women Bags',
+				menus: [
+					{ id: 1, text: 'All Women Bags', to: '/' },
+					{ id: 1, text: 'Handbags', to: '/' },
+					{ id: 1, text: 'Clutches', to: '/' },
+					{ id: 1, text: 'Slingbags', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Men Bags',
+				menus: [
+					{ id: 1, text: 'All Men Bags', to: '/' },
+					{ id: 1, text: 'Men Wallets', to: '/' },
+				],
 			},
 		],
 	},
