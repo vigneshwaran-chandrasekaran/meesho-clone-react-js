@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { About, Products, Categories, Pictures } from 'components/routes/home';
+import { FooterSection } from 'components/common';
 
 const Container = styled.div`
 	display: flex;
@@ -21,7 +22,7 @@ export default function Home() {
 			<Pictures />
 			<Products />
 			<Footer>
-				<p>one is one</p>
+				<FooterSection />
 				<About />
 			</Footer>
 		</Container>
