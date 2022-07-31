@@ -17,8 +17,17 @@ export default function Footer() {
 					<Image width={205} height={53} src={appstoreIcon} ml="1rem" />
 				</Flex>
 			</Section>
-			<Section></Section>
-			<Section></Section>
+			<Section ml="1rem">
+				<Link href="/">Careers</Link>
+				<Link href="/">Become a supplier</Link>
+				<Link href="/">Our Influencer Program</Link>
+				<Link href="/">Hall of Fame</Link>
+			</Section>
+			<Section>
+				<Link href="/">Legal and Policies</Link>
+				<Link href="/">Meesho Tech Blog</Link>
+				<Link href="/">Notices and Returns</Link>
+			</Section>
 			<Section></Section>
 			<Section></Section>
 		</Container>
@@ -30,7 +39,9 @@ const Container = styled.div`
 	margin-top: 2rem;
 `;
 
-const Section = styled(Flex)``;
+const Section = styled(Flex)`
+	flex-direction: column;
+`;
 
 const Title = styled.h2`
 	font-size: 32px;
@@ -43,4 +54,12 @@ const SubTitle = styled.h3`
 	color: ${(props) => props.theme.colors.GraniteGray};
 	max-width: 325px;
 	margin-top: 1rem;
+`;
+
+const Link = styled.a`
+	font-size: 18px;
+	color: ${(props) => props.theme.colors.GraniteGray};
+	font-weight: 600;
+	text-decoration: none;
+	margin: 0 1.5rem 1rem 0;
 `;
