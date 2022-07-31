@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Flex } from 'components/atoms';
+import { Flex, Image } from 'components/atoms';
+import appstoreIcon from 'assets/images/appstore-icon-big.png';
+import playstoreIcon from 'assets/images/playstore-icon-big.png';
 
 export default function Footer() {
 	return (
@@ -10,6 +12,10 @@ export default function Footer() {
 				<SubTitle>
 					Trusted by more than 1 Crore Indians Cash on Delivery | Free Delivery
 				</SubTitle>
+				<Flex mt="1.5rem">
+					<Image width={205} height={53} src={playstoreIcon} />
+					<Image width={205} height={53} src={appstoreIcon} ml="1rem" />
+				</Flex>
 			</Section>
 			<Section></Section>
 			<Section></Section>
@@ -36,4 +42,5 @@ const SubTitle = styled.h3`
 	font-size: 18px;
 	color: ${(props) => props.theme.colors.GraniteGray};
 	max-width: 325px;
+	margin-top: 1rem;
 `;
