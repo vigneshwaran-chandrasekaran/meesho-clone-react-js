@@ -34,7 +34,7 @@ export default function Footer() {
 				<Link href="/">Notices and Returns</Link>
 			</Section>
 			<Section>
-				<Reach>Reach out to us</Reach>
+				<BoldTitle>Reach out to us</BoldTitle>
 				<Flex mt=".75rem" justifyContent="space-between">
 					<Image mr="0.95rem" width={24} height={24} src={facebook} />
 					<Image mr="0.95rem" width={24} height={24} src={instagram} />
@@ -43,14 +43,25 @@ export default function Footer() {
 					<Image width={24} height={24} src={twitter} />
 				</Flex>
 			</Section>
-			<Section></Section>
+			<Section>
+				<BoldTitle>Contact Us</BoldTitle>
+				<Address>Fashnear Technologies Private Limited,</Address>
+				<Address>
+					CIN: U74900KA2015PTC082263 06-105-B, 06-102, (138 Wu) Vaishnavi Signature, No.
+					78/9, Outer Ring Road, Bellandur, Varthur Hobli, Bengaluru-560103, Karnataka,
+					India
+				</Address>
+				<Address>E-mail address: query@meesho.com © 2015-2022 Meesho.com</Address>
+			</Section>
 		</Container>
 	);
 }
 
 const Container = styled.div`
+	width: 100%;
 	display: flex;
-	margin-top: 2rem;
+	justify-content: space-between;
+	margin-top: 3rem;
 `;
 
 const Section = styled(Flex)`
@@ -78,8 +89,15 @@ const Link = styled.a`
 	margin: 0 1.5rem 1rem 0;
 `;
 
-const Reach = styled.div`
+const BoldTitle = styled.div`
 	font-size: 20px;
 	color: ${(props) => props.theme.colors.jet};
 	font-weight: 700;
+`;
+
+const Address = styled.div`
+	font-size: 12px;
+	color: ${(props) => props.theme.colors.GraniteGray};
+	font-weight: 500;
+	max-width: 150px;
 `;
