@@ -1741,8 +1741,32 @@ const links = [
 		subMenus: [
 			{
 				id: 1,
-				menuTitle: 'All Women Ethnic',
-				menus: [{ id: 1, text: 'View All', to: '/' }],
+				menuTitle: 'Home Furnishing',
+				menus: [
+					{ id: 1, text: 'Bedsheets', to: '/' },
+					{ id: 2, text: 'Doormats', to: '/' },
+					{ id: 3, text: 'Curtains & Sheers', to: '/' },
+					{ id: 4, text: 'Cushions & Cushion Covers', to: '/' },
+					{ id: 5, text: 'Mattress Protectors', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Home Decor',
+				menus: [
+					{ id: 1, text: 'All Home Decor', to: '/' },
+					{ id: 2, text: 'Stickers', to: '/' },
+					{ id: 3, text: 'Clocks', to: '/' },
+					{ id: 4, text: 'Showpieces', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Kitchen & Dining',
+				menus: [
+					{ id: 1, text: 'Kitchen Storage', to: '/' },
+					{ id: 2, text: 'Cookware & Bakeware', to: '/' },
+				],
 			},
 		],
 	},
