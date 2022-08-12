@@ -1777,8 +1777,29 @@ const links = [
 		subMenus: [
 			{
 				id: 1,
-				menuTitle: 'All Women Ethnic',
-				menus: [{ id: 1, text: 'View All', to: '/' }],
+				menuTitle: 'Toys & Accessories',
+				menus: [
+					{ id: 1, text: 'Soft Toys', to: '/' },
+					{ id: 1, text: 'Footwear', to: '/' },
+					{ id: 1, text: 'Stationery', to: '/' },
+					{ id: 1, text: 'Watches', to: '/' },
+					{ id: 1, text: 'Bags & Backpacks', to: '/' },
+				],
+			},
+			{
+				id: 1,
+				menuTitle: 'Infant 0-2 Years',
+				menus: [{ id: 1, text: 'Rompers', to: '/' }],
+			},
+			{
+				id: 1,
+				menuTitle: 'Boys & Girls 2+ Years',
+				menus: [{ id: 1, text: 'Dresses', to: '/' }],
+			},
+			{
+				id: 1,
+				menuTitle: 'Baby Care',
+				menus: [{ id: 1, text: 'All Baby Care', to: '/' }],
 			},
 		],
 	},
